@@ -1,0 +1,41 @@
+body{
+	background-image:url('../images/creatematerialrequest.jpg');
+	background-repeat:no-repeat;
+	background-size:cover;
+	}
+#heading{
+	text-align:center;
+	font-family:garamond;
+	font-size:40px;
+	color:white;
+	}
+#formdiv{
+	text-align:center;
+	font-size:18px;
+	font-family:Arial;
+	color:white;
+	width:450px;
+	margin-top:90px;
+	margin-left:500px;
+	padding:30px;
+	border-style:dashed;
+	border-radius:5px;
+}
+#submitbtn{
+	border-radius:12px;
+	background-color:green;
+	color:white;
+	padding:12px;
+	}
+
+#homediv{
+	color: white;
+	text-align: center;
+	margin-top: 90px;
+	font-family: garamond;
+	font-size: 18px;
+	}
+
+#home{
+	color:white
+	}

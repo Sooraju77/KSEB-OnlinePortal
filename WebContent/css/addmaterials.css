@@ -1,0 +1,46 @@
+body {
+	background-image: url("../images/inventory.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#heading {
+	color: white;
+	text-align: center;
+	font-family: garamond;
+	font-size: 40px;
+}
+
+#formdiv {
+	color: white;
+	font-size: 18px;
+	font-family: Arial;
+	text-align: center;
+	width: 400px;
+	border-style: dashed;
+	border-radius: 5px;
+	border-color:#cd5c5c;
+	margin-top: 140px;
+	margin-left: 550px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#submitbtn {
+	padding: 12px;
+	border-radius: 12px;
+	background-color: green;
+	color: white;
+}
+
+
+#home {
+	color: white;
+	text-align: center;
+	margin-top: 120px;
+	font-family: garamond;
+	font-size: 18px;
+}
+
+#home a {
+	color: white;
+}

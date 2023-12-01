@@ -1,0 +1,45 @@
+body {
+	background-image: url("../images/payment.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#heading {
+	color: white;
+	font-family: garamond;
+	font-size: 40px;
+	text-align: center;
+}
+
+#formdiv {
+	text-align: center;
+	font-size: 18px;
+	font-family: Arial;
+	color: white;
+	width: 400px;
+	margin-top: 90px;
+	margin-left: 520px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-style: dashed;
+	border-radius: 4px;
+}
+
+#home {
+	text-align: center;
+	padding-top: 230px;
+	font-family: garamond;
+	font-size: 18px;
+	color: white;
+}
+
+#savebtn {
+	border-radius: 12px;
+	background-color: green;
+	color: white;
+	padding: 12px;
+}
+
+#home a {
+	color: cyan;
+}

@@ -1,0 +1,53 @@
+body {
+	background-image: url("../images/login.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+form {
+	font-family: garamond;
+	font-size: 20px;
+	color: white;
+	text-align: center;
+	border-style: dashed;
+	border-color:  #ffd700;
+	border-radius: 5px;
+	width: 400px;
+	height: 250px;
+	padding-top: 30px;
+	margin-left: 500px;
+	margin-top: 100px;
+}
+
+input {
+	border-style: solid;
+	border-width: 3px;
+	border-radius: 7px;
+}
+
+#ksebheading {
+	color: #ffd700;
+	font-family: Courier New;
+	font-size: 70px;
+	vertical-align: text-bottom;
+	padding-left: 125px;
+}
+
+#usertype {
+	font-family: arial;
+	font-size: 17px;
+	border-style: solid;
+	border-width: 3px;
+	border-radius: 7px;
+}
+
+#loginbutton {
+	margin-top: 5px;
+	padding: 10px;
+	font-size: 15px;
+	border-radius: 12px;
+}
+
+#loginbutton:hover {
+	cursor: pointer;
+}

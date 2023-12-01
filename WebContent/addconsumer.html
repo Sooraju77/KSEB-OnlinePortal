@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<head>
+<title>Add Consumer</title>
+<script type="text/javascript" src="js/addconsumer.js"></script>
+<link rel="stylesheet" type="text/css" href="css/addconsumer.css">
+</head>
+
+<body>
+	<div id="consumerintro">
+		<b>Add Consumer</b>
+	</div>
+	<div id="formdiv">
+		<form name="addconsumer" id="addconsumer" method="post"
+			action="addConsumer">
+			<label>First Name:</label> <input type="text" name="firstname"
+				id="firstname" /> <br>
+			<br> <label>Last Name:</label> <input type="text"
+				name="lastname" id="lastname" /> <br>
+			<br> <label>Phone No:</label> <input type="tel" name="phoneno"
+				id="phoneno" /> <br>
+			<br> <label>Email Id:</label> <input type="email" name="emailid"
+				id="emailid" /> <br>
+			<br> <label>City:</label> <input type="text" name="city"
+				id="city" /> <br>
+			<br> <label>Pincode:</label> <input type="number" name="pincode"
+				id="pincode" /> <br>
+			<br> <label>Meter No:</label> <input type="number"
+				name="meterno" id="meterno" /> <br>
+			<br> <label>Post No:</label> <input type="number" name="postno"
+				id="postno" /> <br>
+			<br> <label>Connection Type:</label> 2 Phase <input type="radio"
+				name="connectiontype" id="connectiontype1" value="2 phase" /> 3
+			Phase <input type="radio" name="connectiontype" id="connectiontype2"
+				value="3 phase" /> <br>
+			<br> <input type="Submit" value="Submit" id="submitbtn"
+				onclick="return validateConsumer()" /> <input type="Reset"
+				value="Reset" id="resetbtn" />
+		</form>
+	</div>
+	<div id="home">
+		Go to HomePage: <a href="adminhome.html">Home</a>
+	</div>
+
+</body>
+
+</html>

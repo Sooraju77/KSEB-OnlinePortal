@@ -1,0 +1,38 @@
+body{
+	background-image: url('../images/inventory.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#materialstable{
+	color:white;
+	border: 2px solid #cd5c5c;
+	background-color: black
+}
+td,th{
+	text-align:center;
+	font-size:18px;
+	padding:8px;
+}
+#tablediv{
+	margin-top:90px;
+	margin-left:310px;
+}
+#heading{
+	color:white;
+	text-align:center;
+	font-family: garamond;
+	font-size: 40px;
+}
+tr{
+	padding:10px
+}
+#hdiv{
+	color: white;
+	text-align: center;
+	margin-top: 40px;
+	font-family: garamond;
+	font-size: 18px;
+	}
+#home{
+	color:white;
+}

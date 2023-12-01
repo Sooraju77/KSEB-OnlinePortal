@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<head>
+<title>::Login::</title>
+<script type="text/javascript" src="js/index.js"></script>
+<link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+
+<body>
+	<div>
+		<marquee width=23%>
+			<img src="images\kseb.jpg" />
+		</marquee>
+		<span id="ksebheading">KSEB ONLINE PORTAL</span>
+	</div>
+
+	<div>
+		<form name="login" id="login" method="POST" action="login">
+			<label>Username</label> <input type="text" name="username"
+				id="username" /> <br>
+			<br> <label>Password</label> <input type="password"
+				name="password" id="password" /> <br> <br> User Type <select
+				name="usertype" id="usertype">
+				<option value="">--Select--</option>
+				<option value="Admin">Admin</option>
+				<option value="Lineman">Lineman</option>
+				<option value="ElectricalEngineer">ElectricalEngineer</option>
+				<option value="MaterialManager">MaterialManager</option>
+			</select> <br> <br> <input type="submit" value="Login"
+				id="loginbutton" onclick="return validateLogin()" />
+		</form>
+
+	</div>
+
+</body>
+
+</html>
